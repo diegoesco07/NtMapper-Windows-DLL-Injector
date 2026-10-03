@@ -1,0 +1,15 @@
+.vs/
+*.vcxproj.user
+Universa.A8F9C1D2/
+x64/
+build/
+cmake-build-*/
+*.log
+*.pdb
+*.obj
+*.ilk
+*.tlog
+*.ipdb
+*.iobj
+*.exe
+*.dll

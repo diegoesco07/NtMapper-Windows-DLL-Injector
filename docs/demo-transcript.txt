@@ -1,0 +1,33 @@
+PE32+ DLL | AMD64 | image 28672 bytes | base 0x180000000 | entry RVA 0x13c0
+Sections (6):
+  .text    RVA 0x1000 raw 0x400 (3584 bytes)
+  .rdata   RVA 0x2000 raw 0x1200 (3072 bytes)
+  .data    RVA 0x3000 raw 0x1e00 (512 bytes)
+  .pdata   RVA 0x4000 raw 0x2000 (512 bytes)
+  .rsrc    RVA 0x5000 raw 0x2200 (512 bytes)
+  .reloc   RVA 0x6000 raw 0x2400 (512 bytes)
+Imported DLLs (3): KERNEL32.dll VCRUNTIME140.dll api-ms-win-crt-runtime-l1-1-0.dll
+Relocations: 1 blocks, 16 entries
+PE32+ DLL | AMD64 | image 28672 bytes | base 0x180000000 | entry RVA 0x13c0
+Sections (6):
+  .text    RVA 0x1000 raw 0x400 (3584 bytes)
+  .rdata   RVA 0x2000 raw 0x1200 (3072 bytes)
+  .data    RVA 0x3000 raw 0x1e00 (512 bytes)
+  .pdata   RVA 0x4000 raw 0x2000 (512 bytes)
+  .rsrc    RVA 0x5000 raw 0x2200 (512 bytes)
+  .reloc   RVA 0x6000 raw 0x2400 (512 bytes)
+Imported DLLs (3): KERNEL32.dll VCRUNTIME140.dll api-ms-win-crt-runtime-l1-1-0.dll
+Relocations: 1 blocks, 16 entries
+Target PID: 1128 | hook profile: performance
+[NtMapper] Initiating Manual Map injection...
+[NtMapper] Image Size: 28672 bytes
+[NtMapper] Remote allocation base: 0x1f0000
+[NtMapper] Hooking target function: QueryPerformanceCounter [IAT Ptr: 0x7ff617763010]
+[NtMapper] Waiting for hook execution in target process...
+[NtMapper] Hook executed & original function pointer restored.
+[NtMapper] Injection successfully finished.
+Injection completed.
+DEMO_READY pid=1128
+DEMO_LOADED
+
+DEMO_PASS: injector completed and target confirmed DLL load.
